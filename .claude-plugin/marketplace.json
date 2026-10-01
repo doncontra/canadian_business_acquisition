@@ -1,0 +1,15 @@
+{
+  "name": "mamandahub",
+  "owner": {
+    "name": "Temi",
+    "url": "https://mamandahub.com"
+  },
+  "plugins": [
+    {
+      "name": "canada-acquisition",
+      "source": "./plugin/canada-acquisition",
+      "description": "End-to-end toolkit for buying a small business in Canada.",
+      "version": "0.2.0"
+    }
+  ]
+}

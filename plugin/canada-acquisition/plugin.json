@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "canada-acquisition",
+  "version": "0.2.0",
+  "description": "End-to-end toolkit for buying a small business in Canada: buy box, sourcing, screening, valuation, financing, LOI, closing, and the first 90 days.",
+  "author": {
+    "name": "Temi",
+    "url": "https://mamandahub.com"
+  },
+  "homepage": "https://mamandahub.com/skills/canada-acquisition",
+  "repository": "https://github.com/mamandahub/canada-acquisition",
+  "keywords": ["acquisition", "canada", "eta", "small-business", "bdc", "loi", "due-diligence"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Canada Acquisition",
+        "shortDescription": "Buy a small business in Canada, step by step",
+        "longDescription": "Canada-specific skills for every stage of buying a small business: choosing what to buy, finding and screening deals, valuation, BDC and CSBFP financing, LOIs, closing, and the first 90 days.",
+        "developerName": "Temi (Mamanda Hub)",
+        "category": "Productivity",
+        "websiteURL": "https://mamandahub.com/skills/canada-acquisition",
+        "defaultPrompt": [
+          "Use Canada Acquisition to screen this business listing: ",
+          "Use Canada Acquisition to help me decide what kind of business to buy."
+        ]
+      }
+    }
+  }
+}

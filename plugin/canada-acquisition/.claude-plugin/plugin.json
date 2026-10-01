@@ -1,0 +1,9 @@
+{
+  "name": "canada-acquisition",
+  "version": "0.2.0",
+  "description": "End-to-end toolkit for buying a small business in Canada: buy box, sourcing, screening, valuation, financing, LOI, closing, and the first 90 days.",
+  "author": {
+    "name": "Temi"
+  },
+  "keywords": ["acquisition", "canada", "eta", "small-business", "bdc", "loi", "due-diligence"]
+}

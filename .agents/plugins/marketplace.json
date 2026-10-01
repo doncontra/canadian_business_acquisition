@@ -1,0 +1,20 @@
+{
+  "name": "mamandahub",
+  "interface": {
+    "displayName": "Mamanda Hub"
+  },
+  "plugins": [
+    {
+      "name": "canada-acquisition",
+      "source": {
+        "source": "local",
+        "path": "./plugin/canada-acquisition"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

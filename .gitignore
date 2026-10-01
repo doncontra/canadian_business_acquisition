@@ -1,0 +1,24 @@
+# Allowlist: ignore everything at the root, then re-include only what ships.
+# New top-level files and folders stay private until they are added below.
+/*
+
+# --- Distribution ---
+!/.gitignore
+!/README.md
+!/LICENSE
+!/.claude-plugin/
+!/.agents/
+!/plugin/
+!/.github/
+
+# Only workflows (CI) under .github ship; source prompts stay local.
+/.github/*
+!/.github/workflows/
+
+# --- Never ship, anywhere in the tree ---
+.DS_Store
+._*
+*.log
+.env
+.env.*
+settings.local.json
