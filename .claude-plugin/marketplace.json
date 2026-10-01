@@ -4,6 +4,9 @@
     "name": "Temi",
     "url": "https://mamandahub.com"
   },
+  "metadata": {
+    "description": "Canada-specific skills for buying a small business, from Mamanda Hub."
+  },
   "plugins": [
     {
       "name": "canada-acquisition",

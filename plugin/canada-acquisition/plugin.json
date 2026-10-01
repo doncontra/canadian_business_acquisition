@@ -8,7 +8,7 @@
     "url": "https://mamandahub.com"
   },
   "homepage": "https://mamandahub.com/skills/canada-acquisition",
-  "repository": "https://github.com/mamandahub/canada-acquisition",
+  "repository": "https://github.com/doncontra/canadian_business_acquisition",
   "keywords": ["acquisition", "canada", "eta", "small-business", "bdc", "loi", "due-diligence"],
   "extensions": {
     "com.openai": {

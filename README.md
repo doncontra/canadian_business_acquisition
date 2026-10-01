@@ -28,13 +28,13 @@ There are two ways to install it. Pick one.
 
 **Option 2: Install with updates**
 1. In Claude, open **Customize → Plugins**.
-2. Choose **Add marketplace** and paste: `mamandahub/canada-acquisition`
+2. Choose **Add marketplace** and paste: `doncontra/canadian_business_acquisition`
 3. Find **canada-acquisition** in the list and click **Install**.
 
 ### Claude Code
 
 ```
-/plugin marketplace add mamandahub/canada-acquisition
+/plugin marketplace add doncontra/canadian_business_acquisition
 /plugin install canada-acquisition@mamandahub
 ```
 
@@ -45,10 +45,11 @@ To update later: `/plugin marketplace update mamandahub`
 **Install with updates (Codex)**
 
 ```
-codex plugin marketplace add mamandahub/canada-acquisition
+codex plugin marketplace add doncontra/canadian_business_acquisition
+codex plugin add canada-acquisition@mamandahub
 ```
 
-Then open Codex, type `/plugins`, and install **Canada Acquisition**.
+Or, after the first command, open Codex, type `/plugins`, and install **Canada Acquisition** from the list.
 
 To update later: `codex plugin marketplace upgrade mamandahub`
 
